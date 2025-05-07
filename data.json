@@ -1,0 +1,23 @@
+{
+    "baseUrl": "https://workshop-saucedemo.vercel.app/login",
+  
+    "login": {
+      "email": "standard_user",
+      "password": "secret_sauce"
+    },
+  
+    "loginFail": {
+      "email": "standard@gmail.com",
+      "password": "123456"
+    },
+    "information": {
+      "firstName": "Harry",
+      "lastName": "Potter ",
+      "houseNumber": "99/9",
+      "street": "Chatuchak",
+      "subDistrict": "-",
+      "district": "-",
+      "province": "Bangkok",
+      "postalCode": "10100"
+    }
+  }
