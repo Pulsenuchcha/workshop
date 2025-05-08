@@ -23,6 +23,7 @@ export class ProductPage {
 
     async verifyUrl() {
         await expect(this.page).toHaveURL("https://workshop-saucedemo.vercel.app/products");
+        
     }
 
     async verifyLogo() {

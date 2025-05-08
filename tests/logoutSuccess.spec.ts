@@ -1,4 +1,4 @@
-import { expect, test } from "@playwright/test";
+import { test } from "@playwright/test";
 import { ProductPage } from "../pageObject/productPage";
 import { LoginPage } from "../pageObject/loginPage";
 import * as data from "../data.json"
@@ -12,7 +12,7 @@ test.beforeEach(async ({ page }) => {
 test("Logout on product page", async ({ page }) => {
     const productPage = new ProductPage(page);
     const loginPage = new LoginPage(page);
-  
+
     await productPage.verifyUrl();
     await productPage.verifyLogo();
     await loginPage.goTo(data.baseUrl);

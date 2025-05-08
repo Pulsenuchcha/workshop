@@ -14,3 +14,4 @@ test("Login with wrong email and password", async ({ page }) => {
   await loginPage.clickLoginButton();
   await loginPage.verifyfailAlert();
 });
+
